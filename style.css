@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    padding: 30px 80px;
+}
+#div1{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-right ul{
+    display: flex;
+    gap: 30px;
+}
+.nav-right ul li{
+    list-style: none;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    gap: 100px;
+}
+
+.hero-right{
+    height: 180px;
+    width: 600px;
+    border: 2px solid grey;
+}
+.signup-btn{
+    height: 30px;
+    width: 100px;
+    background-color: #3882f6;
+    border: 0px solid #3882f6;
+    color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-size: 15px;
+
+}
+#div2>h1{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    gap: 50px;
+    padding: 40px 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.container{
+    height: 120px;
+    width: 120px;
+    border: 3px solid #1b71fa;
+    border-radius: 10px;
+}
+#div3{
+    background-color: #e5e7eb;
+    padding: 80px 150px;
+    display: flex;
+    flex-direction: column;
+}
+#div3>p{
+    font-size: 30px;
+    font-style: italic;
+    
+}
+#div3>div{
+    padding-left: 400px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+#div4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 90px;
+    gap: 100px;
+}
+.footer-text>h1{
+    font-size: 20px;
+}
+.footer-btn>button{
+    width: 100px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 15px;
+    font-weight: 600;
+}
+#div5{
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+}
